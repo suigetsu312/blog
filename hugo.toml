@@ -1,0 +1,85 @@
+baseURL = "http://localhost:1313/"
+languageCode = "zh-tw"
+title = "mizu-blog"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+# PaperMod Search 需要 JSON；RSS 你要開就保留 RSS
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+
+# 這是 Hugo 本體作者（很多模板會吃）
+[author]
+  name = "natsu"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[params]
+  env = "production"
+  author = "yihan-lee"
+  authorEmail = "natsuejji1@gmail.com"
+
+  # Theme
+  defaultTheme = "dark"      # "light" | "dark" | "auto"
+  disableThemeToggle = false
+
+  # UX
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  TocOpen = false
+
+  # Profile Mode
+  [params.profileMode]
+    enabled = true
+    title = "natsu"
+    subtitle = "Software Engineer"
+    imageUrl = ""
+    imageTitle = "avatar"
+    imageWidth = 120
+    imageHeight = 120
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url  = "/posts/"
+    [[params.profileMode.buttons]]
+      name = "Archives"
+      url  = "/archives/"
+    [[params.profileMode.buttons]]
+      name = "Search"
+      url  = "/search/"
+
+  [[params.socialIcons]]
+    name = "github"
+    url  = "https://github.com/suigetsu312"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+  [[menu.main]]
+    name = "Archives"
+    url = "/archives/"
+    weight = 2
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 3
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+  [[menu.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 5
