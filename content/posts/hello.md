@@ -6,4 +6,3 @@ categories: ["dev"]
 tags: ["hugo", "papermod"]
 ---
 
-這是第一篇文章。
