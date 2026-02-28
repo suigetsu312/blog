@@ -50,13 +50,13 @@ enableRobotsTXT = true
 
     [[params.profileMode.buttons]]
       name = "Posts"
-      url  = "/posts/"
+      url  = "/blog/posts/"
     [[params.profileMode.buttons]]
       name = "Archives"
-      url  = "/archives/"
+      url  = "/blog/archives/"
     [[params.profileMode.buttons]]
       name = "Search"
-      url  = "/search/"
+      url  = "/blog/search/"
 
   [[params.socialIcons]]
     name = "github"
