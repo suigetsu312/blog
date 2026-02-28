@@ -1,17 +1,22 @@
 ---
-title: "hugo markdown syntax pratice"
+title: "hugo markdown syntax pratice and command list"
 date: 2026-02-28
 draft: false
 categories: ["dev"]
 tags: ["hugo", "papermod"]
 ---
 
+# Markdown syntax
+
+```markdown
 # Title 
 ## Title
 ### Title
 #### Title
 ##### Title
 ###### Title
+```
+
 ---
 **bold**
 *italic*
@@ -47,3 +52,29 @@ graph TD
 ---
 
 ![test](./img/hiro.jpg)
+
+# Hugo commands
+
+### Local host develop
+
+```zsh
+hugo server -D
+```
+
+### Create Post
+單篇文章
+```zsh
+hugo new posts/hello.md
+```
+#### Page Bundle
+```zsh
+hugo new posts/hello/index.md
+```
+圖片放
+`content/posts/hello/img/{img_name}.{img_extension}`
+
+### Production build
+
+```zsh
+hugo --minify
+```
