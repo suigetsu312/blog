@@ -2,7 +2,7 @@
 date: 2026-03-01T23:08:29+08:00
 draft: false
 title: "C++ STL Cheatsheet"
-categories: ["dev"]
+categories: ["programming"]
 tags: ["C++", "STL"]
 ---
 

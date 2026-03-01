@@ -13,7 +13,7 @@ enableRobotsTXT = true
 
 # 這是 Hugo 本體作者（很多模板會吃）
 [author]
-  name = "natsu"
+  name = "yihan-lee"
 
 [taxonomies]
   category = "categories"
@@ -41,7 +41,7 @@ enableRobotsTXT = true
   # Profile Mode
   [params.profileMode]
     enabled = true
-    title = "natsu"
+    title = "yihan-lee"
     subtitle = "Software Engineer"
     imageUrl = ""
     imageTitle = "avatar"
